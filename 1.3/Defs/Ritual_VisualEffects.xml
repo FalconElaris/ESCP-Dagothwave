@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualVisualEffectDef>
+		<defName>ESCP_Dagoth_House</defName>
+		<tintColor>(115, 165, 155)</tintColor>
+		<comps>
+			<li>
+				<compClass>CompRitualEffect_ConstantCenter</compClass>
+				<moteDef>Mote_RitualGlowRays</moteDef>
+				<scaleWithRoom>true</scaleWithRoom>
+			</li>
+			<li Class="CompProperties_RitualEffectIntervalSpawnCircle">
+				<fleckDef>PartyLensFlare</fleckDef>
+				<area>(24, 24)</area>
+				<radius>6</radius>
+				<concentration>3</concentration>
+				<!--Setting for 144 BPM song at 60TPS-->
+				<spawnIntervalTicks>25.0</spawnIntervalTicks> 
+				<spawnCount>6</spawnCount>
+				<scalePositionWithRoom>true</scalePositionWithRoom>
+				<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+			</li>
+		</comps>
+	</RitualVisualEffectDef>
+</Defs>

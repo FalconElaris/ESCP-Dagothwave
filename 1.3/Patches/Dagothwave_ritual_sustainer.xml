@@ -10,6 +10,7 @@
 					<xpath>/Defs/StyleCategoryDef[defName="MorrowRim_DagothUrStyle"]</xpath>
 					<value>
 						<soundOngoingRitual>ESCP_RitualSustainer_Dagothwave</soundOngoingRitual>
+						<ritualVisualEffectDef>ESCP_Dagoth_House</ritualVisualEffectDef>
 					</value>
 				</li>
 			</operations>
